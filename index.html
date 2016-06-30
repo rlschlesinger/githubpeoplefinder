@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bower_components\bootstrap\dist\css\bootstrap.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css\style.css" media="screen" charset="utf-8">
+    <script src="bower_components\jquery\dist\jquery.min.js" charset="utf-8"></script>
+    <script src="js\functions.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+
+    <div class="container-fluid info-box">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="input-group searchField">
+            <input type="text" class="form-control nameSearch" placeholder="Search GitHub...">
+            <span class="input-group-btn spaceButton">
+              <button class="btn btn-default searchButton" type="button">Go!</button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-6">
+
+            <div class="display-left">
+              <img src="" class="img img-circle" id="avatar">
+              <h2 id="userName"></h2>
+              <p id="location"></p>
+              <span><a href="" id="gitHubUrl"><button class="btn btn-success">GitHub</button></a><a href="" id="blogUrl"><button class="btn btn-primary">Blog</button></a></span>
+            </div>
+
+        </div>
+      <div class="col-md-6">
+
+          <div class=" display-left">
+            <ul id="repos">
+            </ul>
+          
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+  </body>
+
+</html>
